@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [ live site URL here](https://adamakeit.github.io/3-column-preview-card-component-)
+- Live Site URL: [ live site URL here](https://adamakeit.github.io/3-column-preview-card-component-main/)
 
 ## My process
 
