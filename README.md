@@ -42,5 +42,4 @@ Users should be able to:
 
 ## Author
 
--
 - Frontend Mentor - [@AdamaKeit](https://www.frontendmentor.io/profile/yourusername)
