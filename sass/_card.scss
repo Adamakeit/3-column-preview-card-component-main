@@ -1,0 +1,112 @@
+.card {
+  width: 330px;
+  padding-inline: 1.3rem;
+  margin-block: 2rem;
+
+  &_one {
+    background-color: $bright-orange;
+    padding: 2rem;
+    h1 {
+      font-family: "BigShoulders";
+      font-size: 2rem;
+      color: $Transparent-white-paragraphs;
+      margin-block: 1.2rem;
+    }
+    p {
+      color: $very-light-gray;
+      margin-block-end: 1.2rem;
+      line-height: 1.5;
+      margin-block-end: 3rem;
+    }
+    button {
+      background-color: $very-light-gray;
+      color: $bright-orange;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 15px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.5s ease-in-out;
+      &:hover {
+        background-color: transparent;
+        color: $very-light-gray;
+        border: 1px solid $very-light-gray;
+      }
+    }
+  }
+  &_two {
+    background-color: $dark-cyan;
+    padding: 2rem;
+    h1 {
+      font-family: "BigShoulders";
+      font-size: 2rem;
+      color: $Transparent-white-paragraphs;
+      margin-block: 1.2rem;
+    }
+    p {
+      color: $very-light-gray;
+      margin-block-end: 1.2rem;
+      line-height: 1.5;
+      margin-block-end: 3rem;
+    }
+    button {
+      background-color: $very-light-gray;
+      color: $dark-cyan;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 15px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+      &:hover {
+        background-color: transparent;
+        color: $very-light-gray;
+        border: 1px solid $very-light-gray;
+      }
+    }
+  }
+  &_tree {
+    background-color: $very-dark-cyan;
+    padding: 2rem;
+    h1 {
+      font-family: "BigShoulders";
+      font-size: 2rem;
+      color: $Transparent-white-paragraphs;
+      margin-block: 1.2rem;
+    }
+    p {
+      color: $very-light-gray;
+      margin-block-end: 1.2rem;
+      line-height: 1.5;
+      margin-block-end: 3rem;
+    }
+    button {
+      background-color: $very-light-gray;
+      color: $very-dark-cyan;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 15px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+      &:hover {
+        background-color: transparent;
+        color: $very-light-gray;
+        border: 1px solid $very-light-gray;
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    min-height: 100svh;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

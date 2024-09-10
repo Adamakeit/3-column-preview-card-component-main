@@ -1,0 +1,33 @@
+$bright-orange: hsl(31, 77%, 52%);
+$dark-cyan: hsl(184, 100%, 22%);
+$very-dark-cyan: hsl(179, 100%, 13%);
+$Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+$very-light-gray: hsl(0, 0%, 95%);
+
+@font-face {
+  font-family: "Lexenddeca";
+  src: url(../assets/fonts/LexendDeca.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "BigShoulders";
+  src: url(../assets/fonts/BigShoulders.ttf);
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+Body {
+  min-height: 180vh;
+  font-size: 15px;
+  font-family: "lexenddeca";
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}

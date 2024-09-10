@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "Lexenddeca";
+  src: url(../assets/fonts/LexendDeca.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "BigShoulders";
+  src: url(../assets/fonts/BigShoulders.ttf);
+  font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+Body {
+  min-height: 180vh;
+  font-size: 15px;
+  font-family: "lexenddeca";
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.card {
+  width: 330px;
+  padding-inline: 1.3rem;
+  margin-block: 2rem;
+}
+.card_one {
+  background-color: hsl(31, 77%, 52%);
+  padding: 2rem;
+}
+.card_one h1 {
+  font-family: "BigShoulders";
+  font-size: 2rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-block: 1.2rem;
+}
+.card_one p {
+  color: hsl(0, 0%, 95%);
+  margin-block-end: 1.2rem;
+  line-height: 1.5;
+  margin-block-end: 3rem;
+}
+.card_one button {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.card_one button:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
+.card_two {
+  background-color: hsl(184, 100%, 22%);
+  padding: 2rem;
+}
+.card_two h1 {
+  font-family: "BigShoulders";
+  font-size: 2rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-block: 1.2rem;
+}
+.card_two p {
+  color: hsl(0, 0%, 95%);
+  margin-block-end: 1.2rem;
+  line-height: 1.5;
+  margin-block-end: 3rem;
+}
+.card_two button {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.card_two button:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
+.card_tree {
+  background-color: hsl(179, 100%, 13%);
+  padding: 2rem;
+}
+.card_tree h1 {
+  font-family: "BigShoulders";
+  font-size: 2rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-block: 1.2rem;
+}
+.card_tree p {
+  color: hsl(0, 0%, 95%);
+  margin-block-end: 1.2rem;
+  line-height: 1.5;
+  margin-block-end: 3rem;
+}
+.card_tree button {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.card_tree button:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    min-height: 100svh;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
